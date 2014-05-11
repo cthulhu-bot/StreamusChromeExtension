@@ -303,5 +303,8 @@
 	},
 	"addPlaylist": {
 		"message": "Agregar lista de reproducción"
+	},
+	"export": {
+	    "message": "Would you like to export this shit"
 	}
 }

@@ -426,5 +426,8 @@
 	},
 	"whyNotAddASongFromAPlaylistOr": {
 		"message": "Why not add a song from a playlist or"
+	},
+	"export": {
+	    "message": "Would you like to export this shit"
 	}
 }

@@ -306,5 +306,8 @@
 	},
 	"addPlaylist": {
 		"message": "Add playlist"
+	},
+	"export": {
+	    "message": "Would you like to export this shit"
 	}
 }

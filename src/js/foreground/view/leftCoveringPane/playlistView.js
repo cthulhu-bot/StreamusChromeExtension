@@ -154,8 +154,15 @@
                     }
                 }, {
                     text: chrome.i18n.getMessage('edit'),
-                    onClick: function () {
+                    onClick: function() {
                         EventAggregator.trigger('showPrompt', new EditPlaylistPromptView({
+                            playlist: self.model
+                        }));
+                    }
+                }, {
+                    text: chrome.i18n.getMessage('export'),
+                    onClick: function() {
+                        EventAggregator.trigger('showPrompt', new ExportPlaylistPromptView({
                             playlist: self.model
                         }));
                     }
